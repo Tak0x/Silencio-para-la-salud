@@ -155,5 +155,20 @@ ul {
   padding-left: 20px;
   text-align: left; /* Asegura que las listas no estén centradas */
 }
+.contact-button {
+  display: inline-block;
+  background-color: #d32f2f; /* Rojo */
+  color: white;
+  padding: 12px 25px;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-
+.contact-button:hover {
+  background-color: #b71c1c; /* Rojo más oscuro */
+  transform: scale(1.05);
+}
